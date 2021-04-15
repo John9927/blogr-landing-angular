@@ -197,7 +197,7 @@
   width: 32%;
   position: absolute;
   line-height: 1.4;
-  font-size: 19px;
+  font-size: 21px;
   color: hsl(0, 0%, 54%);
 }
 
@@ -215,7 +215,7 @@
 .image__illustration {
   width: 50%;
   margin-top: -148px;
-  padding-left: 112px;
+  padding-left: 183px;
   zoom: 112%;
 }
 
