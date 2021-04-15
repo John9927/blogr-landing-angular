@@ -1,0 +1,150 @@
+.master__container__header {
+  background: rgb(255,143,112);
+  background: linear-gradient(90deg, rgba(255,143,112,1) 0%, rgba(255,61,84,1) 55%);
+  height: 579px;
+  position: absolute;
+  width: 100%;
+  border-bottom-left-radius: 70px;
+}
+
+.master__background {
+  background: url("./../../assets/images/bg-pattern-intro.svg") no-repeat;
+  display: flex;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-position-x: 25%;
+  zoom: 100%;
+  background-position-y: 52%;
+  z-index: 1;
+}
+
+.navbar__container {
+  display: flex;
+  width: 100%;
+  height: 164px;
+  position: relative;
+  align-items: center;
+  z-index: 2;
+}
+
+.header__arrow {
+  margin-left: 4px;
+  width: 8px;
+  height: 6px;
+}
+
+.navbar__items {
+  width: 85%;
+}
+
+.item {
+  width: 100%;
+  z-index: 2;
+}
+
+.navbar__logo__container {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  width: 78%;
+  justify-content: space-between;
+}
+
+.navbar__logo {
+  padding: 10px 40px 10px 10px;
+}
+
+.header__label {
+  color: hsl(355, 100%, 90%);
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.navbar__img {
+  height: 35px;
+  width: 93px;
+}
+
+.navbar__button {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  width: 78%;
+}
+
+.button__without__border {
+  border: 0;
+  background: transparent;
+  color: hsl(355, 100%, 90%);
+  font-size: 14px;
+  margin-right: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button__without__border:focus {
+  outline: none;
+}
+
+.button__with__border {
+  border-radius: 25px;
+  padding: 15px 39px;
+  border: 0;
+  box-shadow: hsl(356deg 100% 66%) 2px 1px 11px 1px;
+  font-size: 14px;
+  color: #FF3D54;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button__with__border:focus {
+  outline: none;
+}
+
+
+/* Title Header */
+.title__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  justify-content: center;
+  z-index: 2;
+  margin-top: 53px;
+}
+
+.header__title {
+  font-size: 64px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.header__description {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-size: 20px;
+  color: hsl(355, 100%, 90%);
+}
+
+.header__button__container {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+}
+
+.button__border__one {
+  margin-left: 20px;
+  background: transparent;
+  border: 1px solid white;
+  color: hsl(355, 100%, 90%);
+  padding: 13px 20px !important;
+}
+
+.button__one {
+  padding: 13px 20px !important;
+}
