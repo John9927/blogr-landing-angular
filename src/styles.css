@@ -3,6 +3,7 @@ body {
   font-family: 'Overpass';
   font-size: 62.5%;
   height: 100%;
+  overflow-x: hidden;
 }
 
 *,*::after,*::before{
