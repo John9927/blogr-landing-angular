@@ -119,6 +119,7 @@
 .header__title {
   font-size: 64px;
   display: flex;
+  margin-bottom: 20px;
   justify-content: center;
   color: white;
 }
@@ -126,7 +127,7 @@
 .header__description {
   display: flex;
   justify-content: center;
-  margin: 20px;
+  /* margin: 20px; */
   font-size: 20px;
   color: hsl(355, 100%, 90%);
 }
