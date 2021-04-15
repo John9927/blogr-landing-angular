@@ -151,6 +151,8 @@
 
 
 /* Template */
+
+
 .template__container {
   position: relative;
   height: 800px;
@@ -218,7 +220,10 @@
   zoom: 112%;
 }
 
+
 /* Banner */
+
+
 .banner__container {
   display: flex;
   position: relative;
