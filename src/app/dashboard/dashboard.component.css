@@ -127,7 +127,6 @@
 .header__description {
   display: flex;
   justify-content: center;
-  /* margin: 20px; */
   font-size: 20px;
   color: hsl(355, 100%, 90%);
 }
@@ -194,7 +193,7 @@
 }
 
 .description__span {
-  width: 32%;
+  width: 40%;
   position: absolute;
   line-height: 1.4;
   font-size: 21px;
@@ -247,7 +246,7 @@
   }
 
   .description__span {
-    width: 40%;
+    width: 32%;
   }
 
   .title__h1__container {
