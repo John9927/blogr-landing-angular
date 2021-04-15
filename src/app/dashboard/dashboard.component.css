@@ -58,7 +58,7 @@
 .header__label {
   color: hsl(355, 100%, 90%);
   margin-right: 20px;
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 600;
   cursor: pointer;
 }
@@ -79,7 +79,7 @@
   border: 0;
   background: transparent;
   color: hsl(355, 100%, 90%);
-  font-size: 14px;
+  font-size: 18px;
   margin-right: 25px;
   font-weight: bold;
   cursor: pointer;
@@ -94,7 +94,7 @@
   padding: 15px 39px;
   border: 0;
   box-shadow: hsl(356deg 100% 66%) 2px 1px 11px 1px;
-  font-size: 14px;
+  font-size: 18px;
   color: #FF3D54;
   font-weight: bold;
   cursor: pointer;
@@ -219,6 +219,26 @@
   zoom: 112%;
 }
 
+/* Banner */
+.banner__container {
+  display: flex;
+  position: relative;
+  width: 100%;
+  background: linear-gradient(90deg, hsl(237, 17%, 21%) 0%, hsl(237, 23%, 32%) 99%);
+  height: 350px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 65px;
+  margin-top: 145px;
+}
+
+.image__phone {
+  width: 466px;
+  height: 507px;
+  margin-top: -56px;
+  margin-left: 150px;
+}
+
+
 @media screen and (max-width: 1430px) {
   .image__illustration {
     zoom: 94%;
@@ -234,5 +254,7 @@
     width: 58%;
   }
 
+  .image__phone {
+    margin-left: 111px;
+  }
 }
-
